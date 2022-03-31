@@ -1,0 +1,85 @@
+`timescale 1ns / 1ps
+
+module instmemo(
+input[6:0]addr,
+output[31:0] Rom
+    );
+    assign Rom[7'h00]=32'h8c150000;
+    assign Rom[7'h01]=32'h20100004;
+    assign Rom[7'h02]=32'h20120000;
+    assign Rom[7'h03]=32'h00125080;
+    assign Rom[7'h04]=32'h01504020;
+    assign Rom[7'h05]=32'h8d110000;
+    assign Rom[7'h06]=32'h001157c3;
+    assign Rom[7'h07]=32'h022a5826;
+    assign Rom[7'h08]=32'h11400001;
+    assign Rom[7'h09]=32'h21710001;
+    assign Rom[7'h0A]=32'had110000;
+    assign Rom[7'h0B]=32'h00119820;
+    assign Rom[7'h0C]=32'h0011a020;
+    assign Rom[7'h0D]=32'h02554822;
+    assign Rom[7'h0E]=32'h000957c2;
+    assign Rom[7'h0F]=32'h1140001c;
+    assign Rom[7'h10]=32'h00125080;
+    assign Rom[7'h11]=32'h01504020;
+    assign Rom[7'h12]=32'h8d110000;
+    assign Rom[7'h13]=32'h001157c3;
+    assign Rom[7'h14]=32'h022a5826;
+    assign Rom[7'h15]=32'h11400001;
+    assign Rom[7'h16]=32'h21710001;
+    assign Rom[7'h17]=32'had110000;
+    assign Rom[7'h18]=32'h02335022;
+    assign Rom[7'h19]=32'h000a57c2;
+    assign Rom[7'h1A]=32'h100a0002;
+    assign Rom[7'h1B]=32'h0260a020;
+    assign Rom[7'h1C]=32'h02209820;
+    assign Rom[7'h1D]=32'h02714822;
+    assign Rom[7'h1E]=32'h02345022;
+    assign Rom[7'h1F]=32'h01495824;
+    assign Rom[7'h20]=32'h000b57c2;
+    assign Rom[7'h21]=32'h100a0001;
+    assign Rom[7'h22]=32'h0220a020;
+    assign Rom[7'h23]=32'h16930004;
+    assign Rom[7'h24]=32'h02915022;
+    assign Rom[7'h25]=32'h000a5fc2;
+    assign Rom[7'h26]=32'h100b0002;
+    assign Rom[7'h27]=32'h0220a020;
+    assign Rom[7'h28]=32'h02405020;
+    assign Rom[7'h29]=32'h02405020;
+    assign Rom[7'h2A]=32'h21520001;
+    assign Rom[7'h2B]=32'h0800000d;
+    assign Rom[7'h2C]=32'h00124880;
+    assign Rom[7'h2D]=32'h0209b020;
+    assign Rom[7'h2E]=32'h20120000;
+    assign Rom[7'h2F]=32'h02554822;
+    assign Rom[7'h30]=32'h000957c2;
+    assign Rom[7'h31]=32'h1140000b;
+    assign Rom[7'h32]=32'h00125080;
+    assign Rom[7'h33]=32'h02ca5820;
+    assign Rom[7'h34]=32'h020a4020;
+    assign Rom[7'h35]=32'h8d110000;
+    assign Rom[7'h36]=32'h16330002;
+    assign Rom[7'h37]=32'had740000;
+    assign Rom[7'h38]=32'h0800003a;
+    assign Rom[7'h39]=32'had730000;
+    assign Rom[7'h3A]=32'h02405020;
+    assign Rom[7'h3B]=32'h21520001;
+    assign Rom[7'h3C]=32'h0800002f;
+    assign Rom[7'h3D]=32'h8ed10000;
+    assign Rom[7'h3E]=32'h8ed10004;
+    assign Rom[7'h3F]=32'h8ed10008;
+    assign Rom[7'h40]=32'h8ed1000c;
+    assign Rom[7'h41]=32'h8ed10010;
+    assign Rom[7'h42]=32'h8ed10014;
+    assign Rom[7'h43]=32'h8ed10018;
+    assign Rom[7'h44]=32'h8ed1001c;
+    assign Rom[7'h45]=32'h8ed10020;
+    assign Rom[7'h46]=32'h8ed10024;
+    assign Rom[7'h47]=32'h8ed10028;
+    assign Rom[7'h48]=32'h8ed1002c;
+    assign Rom[7'h49]=32'h8ed10030;
+    assign Rom[7'h4A]=32'h8ed10034;
+    assign Rom[7'h4B]=32'h8ed10038;
+    assign Rom[7'h4C]=32'h8ed1003c;
+
+endmodule
